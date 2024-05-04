@@ -19,7 +19,8 @@ import { auto, PicadePlayerX } from 'plasma-lights';
 /**
  * The Player X and I assume other devices are not able to detect how many LEDs are connected.
  * You will need to set them in the connection string.
- * Also note that you can set any number but the Picade Plasma buttons have 4 LEDs per button and would recommend setting a multiple of 4 when using them.
+ * Also note that you can set any number but the Picade Plasma buttons have 4 LEDs per button and would
+ * recommend setting a multiple of 4 when using them.
  */
 const NUM_PIXELS = 12;
 
