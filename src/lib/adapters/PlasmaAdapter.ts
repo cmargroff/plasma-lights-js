@@ -4,7 +4,7 @@ const clamp8Bits = (n: number) => {
     return Math.min(255, Math.max(0, n))
 }
 
-export class Plasma {
+export abstract class PlasmaAdapter {
     protected clearOnExit: boolean = false
     protected pixels: Color[] = []
     constructor(protected pixelCount: number = 1) {

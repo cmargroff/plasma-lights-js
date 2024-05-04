@@ -1,4 +1,4 @@
-import { Plasma } from "../Plasma";
+import { PlasmaAdapter } from "../adapters/PlasmaAdapter";
 
 export class PicadePlayerX {
   public static BUTTON_1 = 0;
@@ -13,7 +13,7 @@ export class PicadePlayerX {
   public static BUTTON_ESC = 9;
   public static BUTTON_1UP = 10;
   public static BUTTON_COIN = 11;
-  constructor(private connection: Plasma) { }
+  constructor(private connection: PlasmaAdapter) { }
   public get buttonCount () {
     return this.connection.get_pixel_count() / 4
   }

@@ -1,6 +1,6 @@
-import { Plasma } from "../Plasma";
+import { PlasmaAdapter } from "./PlasmaAdapter";
 
-export default class PlasmaAPA102 extends Plasma {
+export default class PlasmaAPA102 extends PlasmaAdapter {
   constructor() {
     super()
     throw new Error ("Unimplemented class")

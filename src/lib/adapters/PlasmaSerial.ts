@@ -1,10 +1,10 @@
 import { SerialPort } from "serialport"
-import { Plasma } from "../Plasma"
+import { PlasmaAdapter } from "./PlasmaAdapter"
 import {hexy} from "hexy"
 
 const { round } = Math
 
-export default class PlasmaSerial extends Plasma {
+export default class PlasmaSerial extends PlasmaAdapter {
     public static SOF = Buffer.from("LEDS")
     public static EOF = Buffer.from([0x00, 0x00, 0x00, 0xff])
     public serial: SerialPort<any>
