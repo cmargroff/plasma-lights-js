@@ -13,6 +13,7 @@ There are two ways to get a device object, auto connect or manual.
 #### Auto connect
 With this all you need to do is specify a formated connection string to the auto function and it will try to connect for you.
 
+##### On Windows
 ```js
 import { auto, PicadePlayerX } from 'plasma-lights';
 
@@ -46,6 +47,9 @@ const playerX = new PicadePlayerX(plasma)
 playerX.setButton(0, 255, 255, 255, 1)
 ```
 
+##### On Linux
+The connection method is the same but instead of `COM7` use `/dev/ttyACM0`. Make sure to check your write permissions!
+
 #### Manual connection
 Similar to before but instead of providing a connection string you simply call the constructor for the type of connection you are creating.
 
@@ -58,5 +62,5 @@ const plasma = new PlasmaSerial("COM7")
 ```
 
 ## Todo
-- Support on linux
+- ~~Support on linux~~
 - Support for other devices

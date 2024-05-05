@@ -1,6 +1,6 @@
 {
   "name": "@sora3087/plasma-lights",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node js library to communicate with Pimoroni Plasma lights",
   "main": "lib/index.js",
   "repository": {
@@ -27,5 +27,11 @@
   "homepage": "https://github.com/cmargroff/plasma-lights-js#readme",
   "directories": {
     "lib": "lib"
-  }
+  },
+  "keywords": [
+    "pimoroni",
+    "plasma",
+    "player-x",
+    "picade"
+  ]
 }
