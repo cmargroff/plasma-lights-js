@@ -1,5 +1,5 @@
 {
-  "name": "@sora3087/plasma-lights",
+  "name": "plasma-lights",
   "version": "0.0.2",
   "description": "A node js library to communicate with Pimoroni Plasma lights",
   "main": "lib/index.js",
