@@ -64,3 +64,4 @@ const plasma = new PlasmaSerial("COM7")
 ## Todo
 - ~~Support on linux~~
 - Support for other devices
+- Support for handling device connected after service is started
